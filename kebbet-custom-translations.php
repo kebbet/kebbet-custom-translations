@@ -30,8 +30,8 @@ function load_custom_translations( $domain = '', $mo_file = '' ){
 
 		$language_folder_length = strlen( 'languages/' ); // Languages are stored in this folder.
 		$language_parent_dir    = substr( $wp_language_dir, 0, - $language_folder_length );
-		$custom_language_dir    = $language_parent_dir . 'custom-languages/'; // THe custom folder.
-		$mo_file_name           = substr( $mo_file, $language_dir_length ); // File name and its path (plugin/ or themes/).
+		$custom_language_dir    = $language_parent_dir . 'custom-languages/'; // The custom folder.
+		$mo_file_name           = substr( $mo_file, $language_dir_length ); // File file name and its folder (plugin/ or themes/).
 		$custom_file_path       = $custom_language_dir . $mo_file_name;
 
 		/**
