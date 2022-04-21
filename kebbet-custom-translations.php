@@ -12,7 +12,7 @@
  * @source https://wordpress.stackexchange.com/a/302390
  */
 
-namespace kebbet\muplugin\customtranslations;
+namespace kebbet\mu\customtranslations;
 
 /**
  * Modify translations directories.
